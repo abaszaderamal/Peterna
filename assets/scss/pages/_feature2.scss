@@ -1,0 +1,26 @@
+.feature2{
+    background-color: $green;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &__content{
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+        font-family: $Open;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    &__content__info{
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+        text-transform: lowercase;
+        font-family: $Open;
+        font-weight: 600;
+    }
+}

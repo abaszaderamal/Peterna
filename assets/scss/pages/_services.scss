@@ -1,0 +1,97 @@
+.services{
+    padding: 120px 0 0 0;
+    &__content__left{
+        &__title{
+            font-size: 43px;
+            color: $green;
+            margin-bottom:35px;
+            font-family: $Open;
+        }
+
+        &__info{
+            font-size: 30px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        &__info2{
+            font-size: 15px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        
+    }
+
+    &__content__right{
+        height: 245px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-bottom: 50px;
+        &__info{
+            font-size: 30px;
+            color: #333333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+            
+        }
+
+        &__info2{
+            font-size: 15px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        
+    }
+
+    &__card{
+        height: 450px;
+        background-color: $green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        &__icon{
+            color: #fff;
+            font-size: 75px;
+            margin-bottom: 45px;
+
+        }
+
+        &__title{
+            color: #fff;
+            font-size: 25px;
+            font-family: $Open;
+            margin-bottom: 20px;
+        }
+
+        &__info{
+            color: #fff;
+            font-size: 17px;
+            font-family: $Open;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+        &__info2{
+            color: #fff;
+            font-size: 17px;
+            font-family: $Open;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+
+    }
+}

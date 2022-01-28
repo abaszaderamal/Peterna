@@ -1,0 +1,16 @@
+.contact{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content__left{
+        &__title{
+            font-size: 43px;
+            color: $green;
+            margin-bottom:35px;
+            font-family: $Open;
+            font-weight: 600;
+        }
+    }
+}
