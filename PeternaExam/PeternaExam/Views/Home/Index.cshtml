@@ -1,4 +1,6 @@
-﻿<!-- HERO START -->
+﻿@model HomeViewModel
+
+<!-- HERO START -->
 <section class="hero" id="hero">
     <div class="container">
         <div class="hero__content">
@@ -45,56 +47,25 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 mb-3">
-                <div class="services__card">
-                    <div class="services__card__icon">
-                        <i class="fas fa-desktop"></i>
+            @foreach (var service in Model.Services)
+            {
+                <div class="col-lg-4 mb-3">
+                    <div class="services__card">
+                        <div class="services__card__icon">
+                            <i class="@service.Icon"></i>
+                        </div>
+                        <h2 class="services__card__title">
+                            @service.Title
+                        </h2>
+                        <h6 class="services__card__info text-center">
+                            @service.Info
+                        </h6>
+                        <h6 class="services__card__info2 text-center">
+                            @service.Info2
+                        </h6>
                     </div>
-                    <h2 class="services__card__title">
-                        Sure Quique Menu
-                    </h2>
-                    <h6 class="services__card__info text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h6>
-                    <h6 class="services__card__info2 text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h6>
                 </div>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <div class="services__card">
-                    <div class="services__card__icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h2 class="services__card__title">
-                        Sure Quique Menu
-                    </h2>
-                    <h6 class="services__card__info text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h6>
-                    <h6 class="services__card__info2 text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h6>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <div class="services__card">
-                    <div class="services__card__icon">
-                        <i class="far fa-credit-card"></i>
-                    </div>
-                    <h2 class="services__card__title">
-                        Sure Quique Menu
-                    </h2>
-                    <h6 class="services__card__info text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h6>
-                    <h6 class="services__card__info2 text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h6>
-                </div>
-            </div>
+            }
 
             <div class="col-lg-12 mt-5 ">
                 <div class="services__content__bottom">

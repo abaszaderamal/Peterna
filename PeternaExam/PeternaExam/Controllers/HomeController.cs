@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PeternaExam.Data.DAL;
 using PeternaExam.Data.ViewModel;
 using System;
@@ -17,13 +18,13 @@ namespace PeternaExam.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
             HomeViewModel HomeVM = new HomeViewModel
             {
-                
+                Services = await _context.Services.Where(s=>s.IsDeleted==false).ToListAsync()
             };
-            return View();
+            return View(HomeVM);
         }
     }
 }
