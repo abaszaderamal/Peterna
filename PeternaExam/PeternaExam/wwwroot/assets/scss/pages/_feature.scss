@@ -12,7 +12,6 @@
         flex-wrap: wrap;
         &__left{
             text-align: center;
-           
             &__title{
                 font-size: 60px;
                 color: #fff;
@@ -40,7 +39,6 @@
                 text-transform: capitalize;
                 font-family: $Open;
                 font-weight: 600;
-                
             }
 
             &__info{
@@ -54,4 +52,3 @@
         }
     }
 }
-
