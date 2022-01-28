@@ -12,5 +12,89 @@
             font-family: $Open;
             font-weight: 600;
         }
+
+        &__info{
+            font-size: 30px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        &__info2{
+            font-size: 15px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        .form-group{
+            .form{
+                width: 250px;
+                margin: 0 40px 0 0;
+
+            }
+
+            .form-control{
+                background-color: transparent;
+            }
+        }
+
+        .btn-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #428BCA;
+            width: 150px;
+            height: 35px;
+            color: #fff;
+        }
     }
+
+    &__content__right{
+        height: 400px ;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        &__info{
+            font-size: 30px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        &__info2{
+            font-size: 15px;
+            color: #333;
+            margin-bottom:15px;
+            font-family: $Open;
+            font-weight: 400;
+        }
+
+        &__address{
+            color: #333;
+            font-family: $Open;
+            font-size: 13px;
+        }
+        &__email{
+            color: #333;
+            font-family: $Open;
+            font-size: 13px;
+        }
+        &__web{
+            color: #333;
+            font-family: $Open;
+            font-size: 13px;
+        }
+        &__mobile{
+            color: #333;
+            font-family: $Open;
+            font-size: 13px;
+        }
+    }
+
+
 }

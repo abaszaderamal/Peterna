@@ -348,4 +348,102 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
+
+.contact__content__left__info {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.contact__content__left__info2 {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.contact__content__left .form-group .form {
+  width: 250px;
+  margin: 0 40px 0 0;
+}
+
+.contact__content__left .form-group .form-control {
+  background-color: transparent;
+}
+
+.contact__content__left .btn-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #428BCA;
+  width: 150px;
+  height: 35px;
+  color: #fff;
+}
+
+.contact__content__right {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact__content__right__info {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.contact__content__right__info2 {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.contact__content__right__address {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.contact__content__right__email {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.contact__content__right__web {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.contact__content__right__mobile {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
 /*# sourceMappingURL=main.css.map */
