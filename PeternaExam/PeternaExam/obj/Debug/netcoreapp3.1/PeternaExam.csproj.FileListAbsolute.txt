@@ -157,3 +157,5 @@ C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\bin\Debug\netcoreap
 C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs

@@ -33,8 +33,15 @@ using PeternaExam.Data.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\tu201906254\Desktop\Peterna\PeternaExam\PeternaExam\Views\_ViewImports.cshtml"
+using PeternaExam.Data.ViewModel.AuthViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e9a11c31187913ec843bef77090945929d39ecf8", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b41cbaa286237858fcfa425b96db941b473eeece", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c0fc6098d1cb34e4699d99ad637cb2c267c2f0e", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("d-flex flex-column"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -268,7 +275,7 @@ WriteAttributeValue("", 2456, service.Icon, 2456, 13, false);
                     </p>
 
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e9a11c31187913ec843bef77090945929d39ecf813087", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e9a11c31187913ec843bef77090945929d39ecf813303", async() => {
                 WriteLiteral(@"
                         <div class=""form2 d-flex m-auto flex-wrap "">
                             <div class=""form-group "">

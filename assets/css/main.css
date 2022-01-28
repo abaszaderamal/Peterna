@@ -462,11 +462,6 @@ body {
   font-weight: 400;
 }
 
-.contact__content__left .form-group .form {
-  width: 250px;
-  margin: 0 40px 0 0;
-}
-
 .contact__content__left .form-group .form-control {
   background-color: transparent;
 }

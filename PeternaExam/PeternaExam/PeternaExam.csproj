@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20220128133923_AddIdentityColumn.cs" />
+    <Compile Remove="Migrations\20220128133923_AddIdentityColumn.Designer.cs" />
+    <Compile Remove="Migrations\20220128134005_AddIdentityColumn.cs" />
+    <Compile Remove="Migrations\20220128134005_AddIdentityColumn.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\admin\assets\" />
