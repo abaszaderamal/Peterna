@@ -1,6 +1,6 @@
 .feature{
     background-color: $green;
-    height: 180px;
+    padding: 30px 0 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
         &__left{
             text-align: center;
             &__title{
