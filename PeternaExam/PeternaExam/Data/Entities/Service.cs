@@ -19,5 +19,8 @@ namespace PeternaExam.Data.Entities
         
         [Required, MaxLength(150, ErrorMessage = "Info Must be less 150")]
         public string Info2 { get; set; }
+
+        public bool IsDeleted { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

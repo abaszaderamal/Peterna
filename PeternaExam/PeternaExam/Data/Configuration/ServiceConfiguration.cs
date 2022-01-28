@@ -16,6 +16,9 @@ namespace PeternaExam.Data.Configuration
             builder.Property(s => s.Title).IsRequired().HasMaxLength(50);
             builder.Property(s=>s.Info).IsRequired().HasMaxLength(250);
             builder.Property(s => s.Info2).IsRequired().HasMaxLength(150);
+            builder.Property(s => s.IsDeleted).HasDefaultValue(false);
+            builder.Property(s => s.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+
         }
     }
 }
